@@ -1,0 +1,302 @@
+/*Général*/
+html,
+body {
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 992px;
+    margin: 0px;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column
+}
+
+.colorViolet {
+    color: #9356DC;
+}
+
+.colorRose {
+    color: #FF79DA;
+}
+
+.colorVert {
+    color: #99E2D0;
+}
+
+.colorGrisclair {
+    color: #f2f2f2;
+}
+
+.backGrisfonce {
+    background-color: grey;
+}
+
+.backGrisclair {
+    background-color: #f2f2f2;
+}
+
+.backGris {
+    background-color: rgb(232, 232, 232);
+}
+
+
+
+
+/*Nav*/
+.location {
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0px -3px 0px #e4e8dd
+}
+
+.city {
+    margin-right: 15px;
+}
+
+.iconSize {
+    margin-right: 10px;
+}
+
+.sizeLogo {
+    padding: 16px;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+div.flexBetween.column.backGrisclair {
+    text-align: center;
+    padding: 10px 0px 55px;
+}
+
+.explorButton {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.explorBordure {
+    border-radius: 20px;
+    border: none;
+    height: 54px;
+    width: 250px;
+    background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+
+/*Fonctionnement*/
+.foncRest {
+    padding: 10px;
+}
+
+.foncCard1 {
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+    box-shadow: 0px 4px 0px #e4e8dd;
+}
+
+.foncCard2 {
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+    box-shadow: 0px 4px 0px #e4e8dd;
+}
+
+.foncCard3 {
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+    box-shadow: 0px 4px 0px #e4e8dd;
+}
+
+/*Restaurants*/
+
+.restauCard1 {
+    background-color: white;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 15px;
+    height: 215px;
+    width: 325px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    position: relative;
+}
+
+.restauCardimage1 {
+    height: 65%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.restauCard2 {
+    background-color: white;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 15px;
+    height: 215px;
+    width: 325px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.restauCardimage2 {
+    height: 65%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.restauCard3 {
+    background-color: white;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 15px;
+    height: 215px;
+    width: 325px;
+    margin-bottom: 20px;
+}
+
+.restauCardimage3 {
+    height: 65%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.restauCard4 {
+    background-color: white;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 15px;
+    height: 215px;
+    width: 325px;
+    margin-bottom: 20px;
+}
+
+.restauCardimage4 {
+    height: 65%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.restauCardcontain h3 {
+    margin: 10px 15px 7px 11px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.restauCardcontain span {
+    margin-left: 11px;
+}
+
+aside.backGrisclair {
+    padding: 25px;
+    margin: -10px;
+}
+
+.heartMargin {
+    margin-left: 290px;
+}
+
+.heartGrad:hover {
+    background: linear-gradient(to left top, #9356DC, #FF79DA);
+    display: inline-block;
+}
+
+.restauTitre1 {
+    margin-bottom: -15px;
+}
+
+.restauNouveau {
+    background-color: #99E2D0;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 2px;
+    height: 25px;
+    width: 88px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+    padding-top: 7px;
+    color: green;
+    font-weight: bold;
+}
+
+.animatedText
+
+
+/*Footer*/
+.blocFoot {
+    padding: 10px;
+}
+
+.imgFoot {
+    filter: invert(100%);
+}
+
+section.blocFoot.backGrisfonce {
+    padding: 15px;
+}
+
+.footerContain p {
+    margin: 5px;
+
+}
+
+.footerContain {
+    margin-top: 10px;
+    margin-left: -5px;
+    color: white;
+    font-weight: bold;
+}
+
+.iconProp {
+    justify-content: flex-start;
+    margin-left: 0px
+}
+
+.iconPart {
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+.fa-solid {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+i.fa-solid.fa-handshake-angle {
+    font-size: 11px;
+}
